@@ -47,8 +47,6 @@ The package contains multiple modules. The main modules you should focus on are:
 The draw module contains the `Canvas` object, which represents a "canvas" you can draw lines, ellipses and other objects on.
 The canvas could be outputted through an audio channel. **The audio channel must have 2 channels.**
 
-It is recommended that you use the **Oscilloscope** software from [[oscilloscopemusic.com]]. *Shout out to the **Jerobeam Fenderson** guys for getting me in the oscilloscope drawing stuff!*
-
 The functions in `Canvas` starting with `draw_` are the functions for drawing. Use the appropriate function from your linter.
 
 You can observe, that some functions ask for objects of type `Point`, `Line` etc. See the `objects` module below.
@@ -72,6 +70,12 @@ E.g. for the `draw_line` function:
 - `draw_line((0, 0, 1000, 1000))`
 
 All of these are valid code. As you can see, the last one is the shortest. Use your linter to get to know what your options are.
+
+# Emuloating an oscilloscope
+
+It is recommended that you use the **Oscilloscope** software from [[oscilloscopemusic.com]]. *Shout out to the **Jerobeam Fenderson** guys for getting me in the oscilloscope drawing stuff!*
+
+Use the VB-CABLE Virtual Audio Device to connect your software to the oscilloscope. Download it from here: [https://vb-audio.com/Cable/]
 
 # Demos
 
