@@ -75,7 +75,7 @@ All of these are valid code. As you can see, the last one is the shortest. Use y
 
 # Demos
 
-You can run some demos from `demos`. You may need to understand other concepts first.
+You can run some demos from the `demos` folder. You may need to understand other concepts first.
 
 # Gallery
 
