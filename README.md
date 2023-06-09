@@ -71,7 +71,7 @@ E.g. for the `draw_line` function:
 
 All of these are valid code. As you can see, the last one is the shortest. Use your linter to get to know what your options are.
 
-# Emuloating an oscilloscope
+# Emulating an oscilloscope
 
 It is recommended that you use the **Oscilloscope** software from [[oscilloscopemusic.com]]. *Shout out to the **Jerobeam Fenderson** guys for getting me in the oscilloscope drawing stuff!*
 
