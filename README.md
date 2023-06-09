@@ -55,17 +55,17 @@ You can observe, that some functions ask for objects of type `Point`, `Line` etc
 
 ## `objects`
 
-These classes are abstract representations of objects. Using these is recommended if you don't use any shortenings (see the shortenings section for more).
+These classes are abstract representations of objects. Using these are recommended if you don't use any shortenings (see the shortenings section for more).
 Make sure you pass the appropriate objects to the appropriate `draw_` functions.
 
 ## `font`
 
-If you want to create your custom font for the `draw_font` function (eg. one that supports cyrillic or japanese characters), use the `Font` class. Make sure you understand how to use `ObjectCollection`s from `objects`.
+If you want to create your custom font for the `draw_font` function (e.g. one that supports cyrillic or japanese characters), use the `Font` class. Make sure you understand how to use `ObjectCollection`s from `objects`.
 
 ## shortenings
 
 A shortening is just a shorter way to pass the values to functions.
-Eg. for the `draw_line` function:
+E.g. for the `draw_line` function:
 
 - `draw_line(Line(Point(0, 0), Point(1000, 1000)))`
 - `draw_line(Line((0, 0), (1000, 1000))`
