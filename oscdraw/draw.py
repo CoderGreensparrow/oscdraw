@@ -2,9 +2,9 @@ from collections.abc import Collection
 import math
 from typing import Literal
 from unicodedata import normalize
-from oscparrow._audio import _AudioBackend
-from oscparrow.objects import Point, Line, Polygon, Ellipse, ObjectCollection, degrees_to_radians
-from oscparrow.font import Font, default_font
+from ._audio import _AudioBackend
+from .objects import Point, Line, Polygon, Ellipse, ObjectCollection, degrees_to_radians
+from .font import Font, default_font
 import numpy as np
 
 
