@@ -73,9 +73,9 @@ All of these are valid code. As you can see, the last one is the shortest. Use y
 
 # Emulating an oscilloscope
 
-It is recommended that you use the **Oscilloscope** software from [[oscilloscopemusic.com]]. *Shout out to the **Jerobeam Fenderson** guys for getting me in the oscilloscope drawing stuff!*
+It is recommended that you use the **Oscilloscope** software from https://oscilloscopemusic.com. *Shout out to the **Jerobeam Fenderson** guys for getting me in the oscilloscope drawing stuff!*
 
-Use the VB-CABLE Virtual Audio Device to connect your software to the oscilloscope. Download it from here: [https://vb-audio.com/Cable/]
+Use the VB-CABLE Virtual Audio Device to connect your software to the oscilloscope. Download it from here: https://vb-audio.com/Cable/
 
 # Demos
 
