@@ -1,5 +1,6 @@
 from base_demo import *
 
+
 class BouncyBall(Demo):
     def _transform_ball(self, line: Line, ellipse_centre: Point, ellipse_size: int = 5000) -> Ellipse:
         if line.p1.x - ellipse_size / 2 < ellipse_centre.x < line.p2.x + ellipse_size / 2:
@@ -38,3 +39,7 @@ class BouncyBall(Demo):
             self.c.draw_ellipse(ellipse, 440, 10)
             self.c.change_clip(-30000, 30000, 30000, -30000, False)
             self.c.write()
+
+
+if __name__ == '__main__':
+    BouncyBall().run()

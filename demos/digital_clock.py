@@ -1,5 +1,6 @@
 from base_demo import *
 
+
 class DigitalClock(Demo):
     def run(self):
         while True:
@@ -12,3 +13,7 @@ class DigitalClock(Demo):
                              -(char_width * 8 / 2), char_height / 2, 5000, 10 / 8,
                              "triangle", char_width, char_height)
             self.c.write()
+
+
+if __name__ == '__main__':
+    DigitalClock().run()
