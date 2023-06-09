@@ -37,14 +37,14 @@ def play_clip(pixeldisplay: BWDisplay, video_file, skip_pixels: int = 30, skip_l
         pixeldisplay.c.write()
 
 def main():
-    c = Canvas(5, record=True)
+    c = Canvas(5, record=False)
     video_file = input("FILE > ")
     size_multiply = float(input("SIZE MULTIPLY > "))
     b = BWDisplay(c, (get_clip_size(video_file)[0]*3, get_clip_size(video_file)[1]))
     play_clip(b, video_file, # get_clip_size(video_file)[0]//120,
               2, 2,
               size_multiply)
-    c.audio.save()
+    #  c.audio.save()
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
     main()
