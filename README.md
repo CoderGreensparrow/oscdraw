@@ -15,7 +15,7 @@ Just download the folder `oscdraw` and move it to your project folder. Python sh
 **Required dependencies:**
 
 - `numpy`
-- `pyaudio*
+- `pyaudio`
 - `wave` (built-in)
 - `math` (built-in)
 - `os` (built-in)
