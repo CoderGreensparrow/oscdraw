@@ -3,8 +3,8 @@ from oscdraw.audioview import AudioPlotView
 import keyboard
 from random import random
 
-c = Canvas(5)
-a = AudioPlotView(c)
+c = Canvas(8)
+#  a = AudioPlotView(c)
 
 auto_player_left = True
 auto_player_right = True
@@ -83,5 +83,5 @@ while run:
         c.change_rotate((ball.x/35000)**3, Point(0, 0), False)
         c.change_shift((ball.x/3000)**3, (ball.y/3000)**3, False)
         #  c.change_clip(-2**15, 2**15-1, 2**15-1, -2**15, False)
-        a.plot()
+        #  a.plot()
         c.write()
